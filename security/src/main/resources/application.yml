@@ -1,0 +1,29 @@
+server:
+  port: 8084
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 232745671532-46ckr4orn9qvl5n7ovegh7qm9mtntd22.apps.googleusercontent.com
+            client-secret: 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
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security_oauth
+    username: security_oauth
+    password: 123
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+send-mail:
+  email:
+    sender:
+      host: smtp.outlook.com
+      debug: true
+      user: shoxruxmavtanov1771@gmail.com
+      password: 1771Msh@
+
