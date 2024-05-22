@@ -24,6 +24,6 @@ send-mail:
     sender:
       host: smtp.outlook.com
       debug: true
-      user: shoxruxmavtanov1771@gmail.com
-      password: 1771Msh@
+      user: qwerty2345practice@outlook.com
+      password: sendmails2345qwerty
 
