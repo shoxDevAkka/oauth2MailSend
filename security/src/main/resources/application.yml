@@ -6,8 +6,7 @@ spring:
       client:
         registration:
           google:
-            client-id: 232745671532-46ckr4orn9qvl5n7ovegh7qm9mtntd22.apps.googleusercontent.com
-            client-secret: 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
+
   datasource:
     url: jdbc:postgresql://localhost:5432/security_oauth
     username: security_oauth
@@ -25,5 +24,5 @@ send-mail:
       host: smtp.outlook.com
       debug: true
       user: qwerty2345practice@outlook.com
-      password: sendmails2345qwerty
+      password: ok
 
